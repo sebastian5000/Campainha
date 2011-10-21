@@ -6,12 +6,44 @@ body{
 }
 
 #header{
-	margin-bottom:20px;
+	
+	#login{
+		float:right;
+		padding-top:5px;
+		margin-right: 20px;
+		
+		a{
+			background:#4a4a49;
+			padding:10px;
+			font-size:.8em;
+			color:#FFFFFF;
+			text-decoration:none;
+		}
+		
+		.sign{
+			background:url("images/id.png") no-repeat scroll 10px 7px #4A4A49;
+			padding-left:40px;
+		}
+		
+		.login{
+			background:url("images/sign.png") no-repeat scroll 10px 7px #4A4A49;
+			padding-left:35px;
+			margin-right:10px;
+		}
+	}
+	
+	#logo{
+		float:left;
+	}
+}
+
+#tabs{
+	margin-top:10px;
 }
 
 #main{
 	background:url('images/background.png') no-repeat;
-	width:1302px;
+	width:1000px;
 	min-height:746px;
 	margin:0 auto;
 	
@@ -29,35 +61,73 @@ body{
 		background:url('images/tab1.png') no-repeat;
 		height: 13px;
 		width: 150px;
-		color:#B6ADD2;
+		
+		a{
+			color:#B6ADD2;
+			text-decoration:none;
+		}
+		
 	}
 	
 	.tab2{
+		
 		background:url('images/tab2.png') no-repeat;
 		height: 13px;
 		width: 150px;
-		color:#607872;
+		
+		a{
+			color:#607872;
+			text-decoration:none;
+		}
+	}
+	
+	.tab2:hover{
+		background:url('images/tab2h.png') no-repeat;
 	}
 	
 	.tab3{
 		background:url('images/tab3.png') no-repeat;
 		height: 13px;
 		width: 150px;
-		color:#4F6E58;
+		
+		a{
+			color:#4F6E58;
+			text-decoration:none;
+		}
+	}
+	
+	.tab3:hover{
+		background:url('images/tab3h.png') no-repeat;
 	}
 	
 	.tab4{
 		background:url('images/tab4.png') no-repeat;
 		height: 13px;
 		width: 150px;
-		color:#99641F;
+		
+		a{
+			color:#99641F;
+			text-decoration:none;
+		}
+	}
+	
+	.tab4:hover{
+		background:url('images/tab4h.png') no-repeat;
 	}
 	
 	.tab5{
 		background:url('images/tab5.png') no-repeat;
 		height: 13px;
 		width: 209px;
-		color:#917A33;
+		
+		a{
+			color:#917A33;
+			text-decoration:none;
+		}
+	}
+	
+	.tab5:hover{
+		background:url('images/tab5h.png') no-repeat;
 	}
 }
 
@@ -69,8 +139,9 @@ body{
 	input.text_search{
 		-moz-border-radius:3px;
 		-webkit-border-radius:3px;
-		font-size: 1.2em;
-		padding: 11px;
+		font-size: .9em;
+		color:#CBCBCB;
+		padding: 14px 13px;
 		border: 1px solid #43404f;
 		width:330px;
 		margin-right:20px;
@@ -170,6 +241,10 @@ body{
 	cursor:pointer;
 }
 
+.main_action:hover{
+	background:#feba47 url('images/main_btnh.png') repeat-x;
+}
+
 .buscar{
 	padding: 12px 30px;
 	font-size:1em;
@@ -193,6 +268,38 @@ body{
 	font-weight:bold;
 	color:#85592e;
 	cursor:pointer;
+}
+
+#footer{
+	
+	margin-top:130px;
+	
+	a{
+		font-size:.8em;
+		color:#494949;
+		text-decoration:none;
+	}
+	
+	a:hover{
+		text-decoration:underline;
+	}
+	
+	ul{
+		margin-left:170px;
+		
+		li{
+
+			float:left;
+			margin-right:30px;
+			padding-left:5px;
+		}
+		
+		li.first{
+			list-style-type:none;
+		}
+		
+	}
+	
 }
 
 .center{

@@ -4,12 +4,32 @@ body {
   background: #D5D6D1;
   font-family: 'Kreon'; }
 
-#header {
-  margin-bottom: 20px; }
+#header #login {
+  float: right;
+  padding-top: 5px;
+  margin-right: 20px; }
+  #header #login a {
+    background: #4a4a49;
+    padding: 10px;
+    font-size: .8em;
+    color: #FFFFFF;
+    text-decoration: none; }
+  #header #login .sign {
+    background: url("images/id.png") no-repeat scroll 10px 7px #4a4a49;
+    padding-left: 40px; }
+  #header #login .login {
+    background: url("images/sign.png") no-repeat scroll 10px 7px #4a4a49;
+    padding-left: 35px;
+    margin-right: 10px; }
+#header #logo {
+  float: left; }
+
+#tabs {
+  margin-top: 10px; }
 
 #main {
   background: url("images/background.png") no-repeat;
-  width: 1302px;
+  width: 1000px;
   min-height: 746px;
   margin: 0 auto; }
 
@@ -20,28 +40,46 @@ body {
 #tabs .tab1 {
   background: url("images/tab1.png") no-repeat;
   height: 13px;
-  width: 150px;
-  color: #B6ADD2; }
+  width: 150px; }
+  #tabs .tab1 a {
+    color: #B6ADD2;
+    text-decoration: none; }
 #tabs .tab2 {
   background: url("images/tab2.png") no-repeat;
   height: 13px;
-  width: 150px;
-  color: #607872; }
+  width: 150px; }
+  #tabs .tab2 a {
+    color: #607872;
+    text-decoration: none; }
+#tabs .tab2:hover {
+  background: url("images/tab2h.png") no-repeat; }
 #tabs .tab3 {
   background: url("images/tab3.png") no-repeat;
   height: 13px;
-  width: 150px;
-  color: #4F6E58; }
+  width: 150px; }
+  #tabs .tab3 a {
+    color: #4F6E58;
+    text-decoration: none; }
+#tabs .tab3:hover {
+  background: url("images/tab3h.png") no-repeat; }
 #tabs .tab4 {
   background: url("images/tab4.png") no-repeat;
   height: 13px;
-  width: 150px;
-  color: #99641F; }
+  width: 150px; }
+  #tabs .tab4 a {
+    color: #99641F;
+    text-decoration: none; }
+#tabs .tab4:hover {
+  background: url("images/tab4h.png") no-repeat; }
 #tabs .tab5 {
   background: url("images/tab5.png") no-repeat;
   height: 13px;
-  width: 209px;
-  color: #917A33; }
+  width: 209px; }
+  #tabs .tab5 a {
+    color: #917A33;
+    text-decoration: none; }
+#tabs .tab5:hover {
+  background: url("images/tab5h.png") no-repeat; }
 
 #main_wrapper {
   background-color: #5f5a70;
@@ -50,8 +88,9 @@ body {
   #main_wrapper input.text_search {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    font-size: 1.2em;
-    padding: 11px;
+    font-size: .9em;
+    color: #CBCBCB;
+    padding: 14px 13px;
     border: 1px solid #43404f;
     width: 330px;
     margin-right: 20px;
@@ -119,6 +158,9 @@ body {
   color: #85592e;
   cursor: pointer; }
 
+.main_action:hover {
+  background: #feba47 url("images/main_btnh.png") repeat-x; }
+
 .buscar {
   padding: 12px 30px;
   font-size: 1em; }
@@ -140,6 +182,23 @@ body {
   font-weight: bold;
   color: #85592e;
   cursor: pointer; }
+
+#footer {
+  margin-top: 130px; }
+  #footer a {
+    font-size: .8em;
+    color: #494949;
+    text-decoration: none; }
+  #footer a:hover {
+    text-decoration: underline; }
+  #footer ul {
+    margin-left: 170px; }
+    #footer ul li {
+      float: left;
+      margin-right: 30px;
+      padding-left: 5px; }
+    #footer ul li.first {
+      list-style-type: none; }
 
 .center {
   width: 1000px;
