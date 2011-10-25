@@ -8,19 +8,24 @@ body {
   float: right;
   padding-top: 5px;
   margin-right: 20px; }
+  #header #login span {
+    font-size: .8em;
+    font-family: Arial;
+    color: #58585B;
+    margin-right: 10px; }
   #header #login a {
-    background: #4a4a49;
     padding: 10px;
     font-size: .8em;
-    color: #FFFFFF;
     text-decoration: none; }
   #header #login .sign {
     background: url("images/id.png") no-repeat scroll 10px 7px #4a4a49;
-    padding-left: 40px; }
+    padding-left: 40px;
+    color: #FFFFFF; }
   #header #login .login {
     background: url("images/sign.png") no-repeat scroll 10px 7px #4a4a49;
     padding-left: 35px;
-    margin-right: 10px; }
+    margin-right: 10px;
+    color: #FFFFFF; }
 #header #logo {
   float: left; }
 
@@ -207,6 +212,7 @@ body {
 
 .delete {
   background: #c03839 url("images/red.png") repeat-x;
+  text-shadow: 0px 1px 1px #FFFFFF;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   box-shadow: 0 1px 3px #43404F;
@@ -220,6 +226,9 @@ body {
   font-size: 0.7em;
   padding: 8px 10px 6px 10px;
   text-decoration: none; }
+
+.margin {
+  margin-top: 10px; }
 
 .main_action2 {
   background: #feba47 url("images/main_btn.png") repeat-x;
@@ -267,7 +276,8 @@ body {
       padding-top: 50px;
       padding-bottom: 85px; }
       .apartment .right .photos img {
-        margin-left: 10px; }
+        margin-left: 10px;
+        border: none; }
     .apartment .right a {
       margin-left: 5px;
       float: right; }
@@ -307,6 +317,33 @@ body {
     font-size: 1.2em;
     color: #616161;
     margin: 0px 0px 5px 0px; }
+
+#pagination {
+  background: #FFFFFF;
+  padding: 30px 20px 50px 20px;
+  margin-top: 5px; }
+  #pagination ul {
+    width: 300px;
+    margin: 0 auto; }
+  #pagination li {
+    float: left;
+    list-style-type: none;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #e9e9e9 url("images/paginationback.png") repeat-x;
+    padding: 5px 10px 3px 10px;
+    font-size: .8em;
+    font-family: arial;
+    color: #717171;
+    text-shadow: 1px 1px 0px #FFFFFF;
+    margin-left: 4px;
+    box-shadow: 1px 1px 3px #999999;
+    border: 1px solid #c0c0c0;
+    cursor: pointer; }
+  #pagination li:hover {
+    background: #ffffff; }
+  #pagination li:active {
+    background: #e9e9e9 url("images/paginationbackactive.png") repeat-x; }
 
 #footer {
   margin-top: 130px; }
