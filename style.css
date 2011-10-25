@@ -218,6 +218,9 @@ body {
   box-shadow: 0 1px 3px #43404F;
   color: #7c2626; }
 
+.delete:hover {
+  background: #c03839 url("images/redhover.png") repeat-x; }
+
 .buscar {
   padding: 12px 30px;
   font-size: 1em; }
