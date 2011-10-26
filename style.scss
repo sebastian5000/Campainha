@@ -246,9 +246,9 @@ body{
 }
 
 #dashmenu{
-	background:url("images/dashback.png") no-repeat scroll 190px 0 #F0ECF3;
 	height:37px;
-	padding:13px 30px 0px 30px;
+	padding:0px 30px 0px 30px;
+	background-color:#F0ECF3;
 	
 	a{
 		float:right;
@@ -256,7 +256,7 @@ body{
 	}
 	
 	ul{
-		margin: 2px 0px 0px 0px;
+		margin: 9px 0px 0px 0px;
 		padding-left:25px;
 		float:left;
 	}
@@ -267,7 +267,7 @@ body{
 		list-style-type:none;
 		font-size:.8em;
 		font-family:Arial;
-		padding-bottom:14px;
+		padding-bottom:7px;
 	}
 	
 	li:hover{
@@ -280,9 +280,128 @@ body{
 		font-weight:normal;
 		margin:0px 0px 10px 0px;
 		color:#5F596F;
-		float:left;
-		width:169px;
 	}
+	
+	#mainheading{
+		background:url("images/dashback.png") no-repeat #F0ECF3;
+		background-position:right;
+		float:left;
+		padding-top:7px;
+		padding-right:45px;
+	}
+}
+
+#container{
+	background-color:#FFFFFF;
+	padding:0px 30px 0px;
+	border-top:1px solid #f3f4f4;
+	
+	#information{
+		width:300px;
+		background:url('images/infoback.png') repeat-y;
+		background-position:right;
+		padding:20px 0px;
+		float:left;
+		
+		h3{
+			font-size:1em;
+			font-family:arial;
+			color:#5F596F;
+			margin:20px 0px 5px 0px;
+		}
+		
+		img{
+			border:1px solid #d5d7d8;
+		}
+		
+		.infocompany{
+			font-size:.8em;
+			font-family:arial;
+			text-decoration:none;
+			color:#5F596F;
+		}
+	}
+	
+	#informationdisplay{
+		font-family:Arial;
+		color:#5F596F;
+		
+		.apartmentlist{
+			background-color:#F9F9FA;
+			float:left;
+			padding: 5px 20px;
+
+			li{
+				font-size:1.1em;
+			}
+			
+			.segment{
+				border-bottom:1px solid #d1d2d4;
+				padding-left:20px;
+				padding-right:10px;
+				padding-bottom:10px;
+				float:none;
+				
+				li{
+					font-weight:bold;	
+				}
+				
+				.italic{
+					font-style:italic;
+					font-weight:normal;
+				}
+			}
+		}
+		
+		#tabcontent{
+			
+			.tabs_content{
+				
+				li{
+					float:left;
+					padding:10px 20px;
+					background-color:#f9f9fa;
+					border-top: 2px solid #e8e9e9;
+					border-left: 2px solid #e8e9e9;
+					border-right: 2px solid #e8e9e9;
+					
+					a{
+						text-decoration:none;
+						color:#626262;
+						font-weight:bold;
+					}
+				}
+		
+			}
+			
+		}
+		
+		p{
+			color:#626262;
+			font-size:.9em;
+			margin-top:30px;
+		}
+		
+		h3{
+			font-size:1em;
+			margin:15px 0px 5px 0px;
+		}
+		
+		ul{
+			float:left;
+			margin-top:5px;
+			margin-bottom:0px;
+			list-style-type:none;
+			font-size:.8em;
+			padding:0px 140px 0px 0px;
+			color:#5F596F;
+			
+			li{
+				margin:4px 0;
+			}
+		}
+	}
+	
 }
 
 .main_action{
@@ -338,7 +457,7 @@ body{
 }
 
 .margin{
-	margin-top:10px;
+	margin-top:4px;
 }
 
 .main_action2{

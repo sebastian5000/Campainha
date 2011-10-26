@@ -158,13 +158,13 @@ body {
     padding: 10px 20px 10px 10px; }
 
 #dashmenu {
-  background: url("images/dashback.png") no-repeat scroll 190px 0 #f0ecf3;
   height: 37px;
-  padding: 13px 30px 0px 30px; }
+  padding: 0px 30px 0px 30px;
+  background-color: #F0ECF3; }
   #dashmenu a {
     float: right; }
   #dashmenu ul {
-    margin: 2px 0px 0px 0px;
+    margin: 9px 0px 0px 0px;
     padding-left: 25px;
     float: left; }
   #dashmenu li {
@@ -173,7 +173,7 @@ body {
     list-style-type: none;
     font-size: .8em;
     font-family: Arial;
-    padding-bottom: 14px; }
+    padding-bottom: 7px; }
   #dashmenu li:hover {
     border-bottom: 5px solid #5f5a70; }
   #dashmenu h1 {
@@ -181,9 +181,84 @@ body {
     font-size: 1em;
     font-weight: normal;
     margin: 0px 0px 10px 0px;
-    color: #5F596F;
+    color: #5F596F; }
+  #dashmenu #mainheading {
+    background: url("images/dashback.png") no-repeat #f0ecf3;
+    background-position: right;
     float: left;
-    width: 169px; }
+    padding-top: 7px;
+    padding-right: 45px; }
+
+#container {
+  background-color: #FFFFFF;
+  padding: 0px 30px 0px;
+  border-top: 1px solid #f3f4f4; }
+  #container #information {
+    width: 300px;
+    background: url("images/infoback.png") repeat-y;
+    background-position: right;
+    padding: 20px 0px;
+    float: left; }
+    #container #information h3 {
+      font-size: 1em;
+      font-family: arial;
+      color: #5F596F;
+      margin: 20px 0px 5px 0px; }
+    #container #information img {
+      border: 1px solid #d5d7d8; }
+    #container #information .infocompany {
+      font-size: .8em;
+      font-family: arial;
+      text-decoration: none;
+      color: #5F596F; }
+  #container #informationdisplay {
+    font-family: Arial;
+    color: #5F596F; }
+    #container #informationdisplay .apartmentlist {
+      background-color: #F9F9FA;
+      float: left;
+      padding: 5px 20px; }
+      #container #informationdisplay .apartmentlist li {
+        font-size: 1.1em; }
+      #container #informationdisplay .apartmentlist .segment {
+        border-bottom: 1px solid #d1d2d4;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        float: none; }
+        #container #informationdisplay .apartmentlist .segment li {
+          font-weight: bold; }
+        #container #informationdisplay .apartmentlist .segment .italic {
+          font-style: italic;
+          font-weight: normal; }
+    #container #informationdisplay #tabcontent .tabs_content li {
+      float: left;
+      padding: 10px 20px;
+      background-color: #f9f9fa;
+      border-top: 2px solid #e8e9e9;
+      border-left: 2px solid #e8e9e9;
+      border-right: 2px solid #e8e9e9; }
+      #container #informationdisplay #tabcontent .tabs_content li a {
+        text-decoration: none;
+        color: #626262;
+        font-weight: bold; }
+    #container #informationdisplay p {
+      color: #626262;
+      font-size: .9em;
+      margin-top: 30px; }
+    #container #informationdisplay h3 {
+      font-size: 1em;
+      margin: 15px 0px 5px 0px; }
+    #container #informationdisplay ul {
+      float: left;
+      margin-top: 5px;
+      margin-bottom: 0px;
+      list-style-type: none;
+      font-size: .8em;
+      padding: 0px 140px 0px 0px;
+      color: #5F596F; }
+      #container #informationdisplay ul li {
+        margin: 4px 0; }
 
 .main_action {
   background: #feba47 url("images/main_btn.png") repeat-x;
@@ -231,7 +306,7 @@ body {
   text-decoration: none; }
 
 .margin {
-  margin-top: 10px; }
+  margin-top: 4px; }
 
 .main_action2 {
   background: #feba47 url("images/main_btn.png") repeat-x;
