@@ -191,14 +191,14 @@ body {
 
 #container {
   background-color: #FFFFFF;
-  padding: 0px 30px 0px;
-  border-top: 1px solid #f3f4f4; }
+  padding: 0px 30px;
+  border-top: 1px solid #f3f4f4;
+  display: inline-block;
+  width: 940px; }
   #container #information {
-    width: 300px;
-    background: url("images/infoback.png") repeat-y;
-    background-position: right;
-    padding: 20px 0px;
-    float: left; }
+    padding: 20px 50px 0 0;
+    float: left;
+    display: inline-block; }
     #container #information h3 {
       font-size: 1em;
       font-family: arial;
@@ -212,12 +212,36 @@ body {
       text-decoration: none;
       color: #5F596F; }
   #container #informationdisplay {
+    background: url("images/infoback.png") repeat-y;
+    padding: 0px 0px 30px 30px;
     font-family: Arial;
-    color: #5F596F; }
+    color: #5F596F;
+    width: 685px;
+    float: left;
+    display: inline-block; }
+    #container #informationdisplay .active {
+      border-bottom: none; }
     #container #informationdisplay .apartmentlist {
+      width: 640px;
       background-color: #F9F9FA;
+      padding: 20px;
       float: left;
-      padding: 5px 20px; }
+      border-left: 2px solid #e5e6e7;
+      border-right: 2px solid #e5e6e7;
+      border-bottom: 2px solid #e5e6e7; }
+      #container #informationdisplay .apartmentlist img {
+        float: right; }
+      #container #informationdisplay .apartmentlist .apart {
+        float: left;
+        width: 300px; }
+      #container #informationdisplay .apartmentlist .pin {
+        padding-left: 20px; }
+      #container #informationdisplay .apartmentlist .one {
+        background: url("images/pina.png") no-repeat; }
+      #container #informationdisplay .apartmentlist .two {
+        background: url("images/pinb.png") no-repeat; }
+      #container #informationdisplay .apartmentlist .three {
+        background: url("images/pinc.png") no-repeat; }
       #container #informationdisplay .apartmentlist li {
         font-size: 1.1em; }
       #container #informationdisplay .apartmentlist .segment {
@@ -237,7 +261,8 @@ body {
       background-color: #f9f9fa;
       border-top: 2px solid #e8e9e9;
       border-left: 2px solid #e8e9e9;
-      border-right: 2px solid #e8e9e9; }
+      border-right: 2px solid #e8e9e9;
+      margin-bottom: 0px; }
       #container #informationdisplay #tabcontent .tabs_content li a {
         text-decoration: none;
         color: #626262;
@@ -255,8 +280,10 @@ body {
       margin-bottom: 0px;
       list-style-type: none;
       font-size: .8em;
-      padding: 0px 140px 0px 0px;
-      color: #5F596F; }
+      padding-right: 0px;
+      padding-left: 0px;
+      color: #5F596F;
+      width: 100%; }
       #container #informationdisplay ul li {
         margin: 4px 0; }
 
