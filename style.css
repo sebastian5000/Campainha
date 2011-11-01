@@ -196,16 +196,16 @@ body {
   display: inline-block;
   width: 940px; }
   #container #information {
-    padding: 20px 50px 0 0;
+    padding: 20px 20px 0 0;
     float: left;
     display: inline-block; }
     #container #information h3 {
       font-size: 1em;
       font-family: arial;
       color: #5F596F;
-      margin: 20px 0px 5px 0px; }
+      margin: 20px 0px 10px 0px; }
     #container #information img {
-      border: 1px solid #d5d7d8; }
+      border: 1px solid #6B6279; }
     #container #information .infocompany {
       font-size: .8em;
       font-family: arial;
@@ -219,21 +219,45 @@ body {
     width: 685px;
     float: left;
     display: inline-block; }
+    #container #informationdisplay .apartmentleft {
+      float: left;
+      width: 340px;
+      margin-right: 29px; }
+      #container #informationdisplay .apartmentleft p {
+        color: #000000;
+        font-size: .8em;
+        line-height: 25px; }
+    #container #informationdisplay .apartmentright {
+      float: left;
+      width: 270px; }
+      #container #informationdisplay .apartmentright #selector {
+        width: 190px;
+        margin: 0 auto; }
+        #container #informationdisplay .apartmentright #selector img {
+          border: none; }
+        #container #informationdisplay .apartmentright #selector li {
+          float: left; }
+        #container #informationdisplay .apartmentright #selector li.middle {
+          margin: 10px 20px; }
+    #container #informationdisplay .datos {
+      float: left;
+      margin-right: 80px; }
     #container #informationdisplay .active {
       border-bottom: none; }
     #container #informationdisplay .apartmentlist {
       width: 640px;
       background-color: #F9F9FA;
-      padding: 20px;
       float: left;
       border-left: 2px solid #e5e6e7;
       border-right: 2px solid #e5e6e7;
-      border-bottom: 2px solid #e5e6e7; }
+      border-bottom: 2px solid #e5e6e7;
+      padding: 20px; }
+      #container #informationdisplay .apartmentlist .select {
+        margin-top: 10px; }
+        #container #informationdisplay .apartmentlist .select span {
+          float: right; }
       #container #informationdisplay .apartmentlist img {
-        float: right; }
-      #container #informationdisplay .apartmentlist .apart {
-        float: left;
-        width: 300px; }
+        border: 1px solid #6B6279; }
       #container #informationdisplay .apartmentlist .pin {
         padding-left: 20px; }
       #container #informationdisplay .apartmentlist .one {
@@ -270,20 +294,18 @@ body {
     #container #informationdisplay p {
       color: #626262;
       font-size: .9em;
-      margin-top: 30px; }
+      margin-top: 20px; }
     #container #informationdisplay h3 {
       font-size: 1em;
       margin: 15px 0px 5px 0px; }
     #container #informationdisplay ul {
-      float: left;
       margin-top: 5px;
       margin-bottom: 0px;
       list-style-type: none;
       font-size: .8em;
       padding-right: 0px;
       padding-left: 0px;
-      color: #5F596F;
-      width: 100%; }
+      color: #5F596F; }
       #container #informationdisplay ul li {
         margin: 4px 0; }
 
@@ -296,7 +318,8 @@ body {
   -webkit-border-radius: 2px;
   font-weight: bold;
   color: #85592e;
-  cursor: pointer; }
+  cursor: pointer;
+  text-transform: uppercase; }
 
 .main_action:hover {
   background: #feba47 url("images/main_btnh.png") repeat-x; }
