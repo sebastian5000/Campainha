@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentDocument</key>
+	<string>style.scss</string>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>index.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-01T16:21:06Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Minhas Propiedades.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-01T20:03:16Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Imobiliaria Corretor Profile Offices.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-02T19:35:34Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Imobiliaria Corretor Profile properties.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-02T19:35:36Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>Adicionar Editar Fotos de um Anuncio Propriedade.html</string>
+			<key>lastUsed</key>
+			<date>2011-11-02T21:10:30Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>style.css</string>
+			<key>lastUsed</key>
+			<date>2011-11-01T16:42:33Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>style.scss</string>
+			<key>lastUsed</key>
+			<date>2011-11-02T21:10:30Z</date>
+			<key>selected</key>
+			<true/>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>200</integer>
+	<key>metaData</key>
+	<dict>
+		<key>Adicionar Editar Fotos de um Anuncio Propriedade.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>76</integer>
+				<key>line</key>
+				<integer>116</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>91</integer>
+		</dict>
+		<key>style.scss</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>59</integer>
+				<key>line</key>
+				<integer>553</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>537</integer>
+		</dict>
+	</dict>
+	<key>openDocuments</key>
+	<array>
+		<string>Adicionar Editar Fotos de um Anuncio Propriedade.html</string>
+		<string>style.scss</string>
+	</array>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{213, 0}, {1067, 778}}</string>
+</dict>
+</plist>
