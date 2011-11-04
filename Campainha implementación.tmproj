@@ -34,7 +34,7 @@
 			<key>filename</key>
 			<string>Adicionar Editar Fotos de um Anuncio Propriedade.html</string>
 			<key>lastUsed</key>
-			<date>2011-11-02T21:10:30Z</date>
+			<date>2011-11-03T22:05:38Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -46,7 +46,7 @@
 			<key>filename</key>
 			<string>style.scss</string>
 			<key>lastUsed</key>
-			<date>2011-11-02T21:10:30Z</date>
+			<date>2011-11-03T22:05:38Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -60,28 +60,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>76</integer>
+				<integer>31</integer>
 				<key>line</key>
-				<integer>116</integer>
+				<integer>220</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>91</integer>
+			<integer>191</integer>
 		</dict>
 		<key>style.scss</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>59</integer>
+				<integer>17</integer>
 				<key>line</key>
-				<integer>553</integer>
+				<integer>374</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>537</integer>
+			<integer>360</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
