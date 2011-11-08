@@ -195,6 +195,95 @@ body {
   border-top: 1px solid #f3f4f4;
   display: inline-block;
   width: 940px; }
+  #container .detailslider {
+    border-bottom: 1px solid #D1D2D4;
+    padding-bottom: 25px;
+    font-family: arial; }
+    #container .detailslider .question {
+      font-size: .9em; }
+      #container .detailslider .question span {
+        color: #444050;
+        margin-right: 10px; }
+    #container .detailslider .answer {
+      font-size: .9em;
+      color: #6D6E70;
+      padding-left: 25px; }
+      #container .detailslider .answer span {
+        font-weight: bold;
+        margin-right: 10px; }
+    #container .detailslider .caracteristicas {
+      padding: 0px;
+      list-style-type: none;
+      font-size: .9em;
+      color: #000000;
+      float: left;
+      margin: 10px 40px 0px 0px; }
+      #container .detailslider .caracteristicas li {
+        background: url("images/yellowbullet.png") no-repeat scroll 0 5px transparent;
+        padding-left: 10px; }
+    #container .detailslider .specification {
+      padding: 0px;
+      list-style-type: none;
+      font-size: .9em;
+      color: #5F596F;
+      float: left;
+      margin: 20px 40px 0px 0px; }
+      #container .detailslider .specification span {
+        font-weight: bold;
+        color: #000000; }
+    #container .detailslider p.text {
+      margin: 20px 0px 0px 0px; }
+    #container .detailslider .text {
+      font-size: .9em;
+      color: #000000; }
+    #container .detailslider .photoslider {
+      float: left;
+      margin-right: 20px; }
+    #container .detailslider .infoslider {
+      float: left;
+      width: 180px; }
+      #container .detailslider .infoslider .note {
+        font-size: .7em;
+        font-family: arial;
+        color: #626262;
+        margin: 6px 0px; }
+      #container .detailslider .infoslider .section {
+        border-bottom: 1px solid #D1D2D4; }
+        #container .detailslider .infoslider .section ul {
+          padding: 0px; }
+        #container .detailslider .infoslider .section li {
+          list-style-type: none;
+          font-family: arial;
+          font-size: .7em;
+          color: #626262;
+          background: url("images/yellowbullet.png") no-repeat scroll 0 4px transparent;
+          padding-left: 10px; }
+      #container .detailslider .infoslider .value {
+        font-size: .9em;
+        font-family: arial;
+        color: #626262;
+        font-style: italic;
+        margin-bottom: 0px; }
+      #container .detailslider .infoslider .price {
+        font-size: 1.3em;
+        font-weight: bold;
+        font-style: normal;
+        color: #5F596F;
+        margin-top: 0px;
+        font-family: Arial; }
+        #container .detailslider .infoslider .price span {
+          font-size: .7em;
+          font-family: arial;
+          font-weight: normal;
+          font-style: normal;
+          margin-right: 10px; }
+    #container .detailslider #selector li {
+      float: left;
+      list-style-type: none; }
+    #container .detailslider #selector .middle {
+      margin: 0 5px; }
+    #container .detailslider #selector img {
+      border: none; }
   #container .photocontainer {
     width: 640px;
     margin: 0 auto;
@@ -269,7 +358,12 @@ body {
   #container #information {
     padding: 20px 20px 0 0;
     float: left;
-    display: inline-block; }
+    display: inline-block;
+    width: 650px; }
+    #container #information .back {
+      font-size: .8em;
+      font-family: arial;
+      font-weight: bold; }
     #container #information h3 {
       font-size: 1em;
       font-family: arial;
@@ -277,11 +371,81 @@ body {
       margin: 20px 0px 10px 0px; }
     #container #information img {
       border: 1px solid #6B6279; }
+    #container #information #minimenu ul {
+      background: url("images/minimenuback.png") no-repeat;
+      width: 651px;
+      height: 27px;
+      padding-top: 12px; }
+    #container #information #minimenu a {
+      color: #5F596F;
+      text-decoration: none; }
+    #container #information #minimenu li {
+      float: left;
+      margin-right: 20px;
+      list-style-type: none;
+      font-size: .8em;
+      font-family: Arial;
+      padding-bottom: 6px; }
+    #container #information #minimenu li:hover {
+      border-bottom: 5px solid #5f5a70; }
     #container #information .infocompany {
       font-size: .8em;
       font-family: arial;
       text-decoration: none;
       color: #5F596F; }
+    #container #information .heading {
+      margin-top: 10px; }
+      #container #information .heading p {
+        margin: 0px;
+        font-family: Arial;
+        font-size: .9em;
+        color: #626262; }
+      #container #information .heading h3 {
+        margin: 0px;
+        font-size: 1.2em; }
+  #container #informationdisplay2 {
+    background: url("images/infoback.png") repeat-y;
+    padding: 30px 0px 30px 30px;
+    font-family: Arial;
+    color: #5F596F;
+    float: left;
+    display: inline-block;
+    width: 240px; }
+    #container #informationdisplay2 img {
+      margin-bottom: 20px; }
+    #container #informationdisplay2 #empresa {
+      background: #f9f9f9;
+      border: 1px solid #d1d3d4;
+      padding: 10px; }
+      #container #informationdisplay2 #empresa h3 {
+        font-size: .8em; }
+      #container #informationdisplay2 #empresa img {
+        float: left;
+        margin-right: 10px; }
+    #container #informationdisplay2 .graytitle {
+      color: #626262;
+      font-style: italic;
+      font-size: .8em;
+      margin: 0px 0px 10px 0px; }
+    #container #informationdisplay2 .bold {
+      font-weight: bold;
+      color: #000000;
+      margin: 0px; }
+    #container #informationdisplay2 ul {
+      padding: 0px;
+      margin: 0px 0px 40px 0px;
+      list-style-type: none; }
+    #container #informationdisplay2 li {
+      margin: 10px 0px; }
+    #container #informationdisplay2 .purple {
+      color: #5F596F; }
+    #container #informationdisplay2 .red {
+      color: #DA0000; }
+    #container #informationdisplay2 .green {
+      color: #0A6E2D; }
+    #container #informationdisplay2 span {
+      font-size: 1.3em;
+      font-weight: bold; }
   #container #informationdisplay {
     background: url("images/infoback.png") repeat-y;
     padding: 0px 0px 30px 30px;
@@ -401,10 +565,11 @@ body {
   -webkit-border-radius: 3px;
   font-size: 0.7em;
   font-weight: bold;
-  padding: 4px 10px;
+  padding: 8px 10px 3px;
   text-decoration: none;
   color: #5f5a70;
-  box-shadow: 1px 1px 1px #999999; }
+  box-shadow: 1px 1px 1px #999999;
+  text-transform: uppercase; }
 
 .delete {
   background: #c03839 url("images/red.png") repeat-x;

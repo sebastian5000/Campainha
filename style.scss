@@ -298,6 +298,146 @@ body{
 	display:inline-block;
 	width:940px;
 	
+	.detailslider{
+		
+		border-bottom:1px solid #D1D2D4;
+		padding-bottom:25px;
+		font-family:arial;
+		
+		.question{
+			font-size:.9em;
+			
+			span{
+				color:#444050;
+				margin-right:10px;
+			}
+			
+		}
+		
+		.answer{
+			font-size:.9em;
+			color:#6D6E70;
+			padding-left:25px;
+			
+			span{
+				font-weight:bold;
+				margin-right:10px;
+			}
+		}
+		
+		.caracteristicas{
+			padding:0px;
+			list-style-type:none;
+			font-size:.9em;
+			color:#000000;
+			float:left;
+			margin:10px 40px 0px 0px;
+			
+			li{
+				background:url('images/yellowbullet.png') no-repeat scroll 0 5px transparent;
+				padding-left:10px;
+			}
+		}
+		
+		.specification{
+			padding:0px;
+			list-style-type:none;
+			font-size:.9em;
+			color:#5F596F;
+			float:left;
+			margin:20px 40px 0px 0px;
+			
+			span{
+				font-weight:bold;
+				color:#000000;
+			}
+			
+		}
+		
+		p.text{
+			margin:20px 0px 0px 0px;
+		}
+		
+		.text{
+			font-size:.9em;
+			color:#000000;
+		}
+		
+		.photoslider{
+			float:left;
+			margin-right:20px;
+		}
+		
+		.infoslider{
+			float:left;
+			width:180px;
+			
+			.note{
+				font-size:.7em;
+				font-family:arial;
+				color:#626262;
+				margin:6px 0px;
+			}
+			
+			.section{
+				border-bottom: 1px solid #D1D2D4;
+				
+				ul{
+					padding:0px;
+				}
+				
+				li{
+					list-style-type:none;
+					font-family:arial;
+					font-size:.7em;
+					color:#626262;
+					background:url("images/yellowbullet.png") no-repeat scroll 0 4px transparent;
+					padding-left:10px;
+				}
+			}
+			
+			.value{
+				font-size:.9em;
+				font-family:arial;
+				color:#626262;
+				font-style:italic;
+				margin-bottom:0px;
+			}
+			
+			.price{
+				font-size:1.3em;
+				font-weight:bold;
+				font-style:normal;
+				color:#5F596F;
+				margin-top:0px;
+				font-family:Arial;
+				
+				span{
+					font-size:.7em;
+					font-family:arial;
+					font-weight:normal;
+					font-style:normal;
+					margin-right:10px;
+				}
+			}
+		}
+		
+		#selector{
+			li{
+				float:left;
+				list-style-type:none;
+			}
+			
+			.middle{
+				margin:0 5px;
+			}
+			
+			img{
+				border:none;
+			}
+		}
+	}
+	
 	.photocontainer{
 		width:640px;
 		margin:0 auto;
@@ -404,6 +544,13 @@ body{
 		padding:20px 20px 0 0;
 		float:left;
 		display:inline-block;
+		width:650px;
+		
+		.back{
+			font-size:.8em;
+			font-family:arial;
+			font-weight:bold;
+		}
 		
 		h3{
 			font-size:1em;
@@ -416,12 +563,127 @@ body{
 			border:1px solid #6B6279
 		}
 		
+		#minimenu{
+			
+			ul{
+				background: url('images/minimenuback.png') no-repeat;
+				width:651px;
+				height:27px;
+				padding-top:12px;
+			}
+			
+			a{
+				color:#5F596F;
+				text-decoration:none;
+			}
+			
+			li{
+				float:left;
+				margin-right:20px;
+				list-style-type:none;
+				font-size:.8em;
+				font-family:Arial;
+				padding-bottom:6px;	
+			}
+			
+			li:hover{
+				border-bottom: 5px solid #5f5a70;
+			}
+		}
+		
 		.infocompany{
 			font-size:.8em;
 			font-family:arial;
 			text-decoration:none;
 			color:#5F596F;
 		}
+		
+		.heading{
+			
+			margin-top:10px;
+			
+			p{
+				margin:0px;
+				font-family:Arial;
+				font-size:.9em;
+				color:#626262;
+			}
+			
+			h3{
+				margin:0px;
+				font-size:1.2em;
+			}
+		}
+	}
+	
+	#informationdisplay2{
+		background:url('images/infoback.png') repeat-y;
+		padding:30px 0px 30px 30px;
+		font-family:Arial;
+		color:#5F596F;
+		float:left;
+		display:inline-block;
+		width:240px;
+		
+		img{
+			margin-bottom:20px;
+		}
+		
+		#empresa{
+			background:#f9f9f9;
+			border:1px solid #d1d3d4;
+			padding:10px;
+			
+			h3{
+				font-size:.8em;
+			}
+			
+			img{
+				float:left;
+				margin-right:10px;
+			}
+		}
+		
+		.graytitle{
+			color:#626262;
+			font-style:italic;
+			font-size:.8em;
+			margin:0px 0px 10px 0px;
+		}
+		
+		.bold{
+			font-weight:bold;
+			color:#000000;
+			margin:0px;
+		}
+		
+		ul{
+			padding:0px;
+			margin:0px 0px 40px 0px;
+			list-style-type:none;
+		}
+		
+		li{
+			margin:10px 0px;
+		}
+		
+		.purple{
+			color:#5F596F;
+		}
+		
+		.red{
+			color:#DA0000;
+		}
+		
+		.green{
+			color:#0A6E2D;
+		}
+		
+		span{
+			font-size:1.3em;
+			font-weight:bold;
+		}
+		
 	}
 	
 	#informationdisplay{
@@ -611,10 +873,11 @@ body{
 	-webkit-border-radius:3px;
 	font-size: 0.7em;
 	font-weight:bold;
-	padding: 4px 10px;
+	padding: 8px 10px 3px;
 	text-decoration: none;
 	color:#5f5a70;
 	box-shadow:1px 1px 1px #999999;
+	text-transform:uppercase;
 }
 
 .delete{
